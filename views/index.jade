@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-html(lang="en")
+html(lang="en-us")
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
@@ -7,13 +7,84 @@ html(lang="en")
     title FOCUS
     link(rel="stylesheet", href="stylesheets/bootstrap.min.css")
     link(rel="stylesheet", href="stylesheets/normalize.css")
+    link(rel="stylesheet", href="stylesheets/style.css")
+    link(rel="stylesheet", href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css")
   body
-
-  h1.hello-world hubylida
-
-  div.contain
-  p hello world
+  div.contain 
+    section.header.container-fluid
+        div.row
+          div.col-md-5
+            a.head-name(href="/") FOCUS LAB
+          div.col-md-7
+            div.nav-bar
+              a.nav-item(href="javascript:;") Members 
+              a.nav-item(href="javascript:;") Academics
+              a.nav-item(href="javascript:;") Activities
+              a.nav-item(href="javascript:;") About 
+    section.container-fluid.cover-scroll
+      div.big-title FOCUS LAB
+      a.cover-footer#btn-scroll(href="#main-content") Welcome to FOCUS LAB
+    section#main-content 
+      div.container.members-head 
+        h1 FOCUS MEMBERS
+        p The main members
+      div.container
+        div.row
+          div.col-md-3.col-sm-6.members-wrap
+            a(href="").members-item
+              img(src="images/head-1.jpg", alt="图片丢失了")
+              div.members-p-wrap
+                p 春葱
+                p 春天的一颗葱
+          div.col-md-3.col-sm-6.members-wrap
+            a(href="").members-item
+              img(src="images/head-2.jpg", alt="图片丢失了")
+              div.members-p-wrap
+                p 夏花
+                p 夏天的一株花
+          div.col-md-3.col-sm-6.members-wrap
+            a(href="").members-item
+              img(src="images/head-10.jpg", alt="图片丢失了")
+              div.members-p-wrap
+                p 秋叶
+                p 秋天的一片叶子
+          div.col-md-3.col-sm-6.members-wrap
+            a(href="").members-item
+              img(src="images/head-4.jpg", alt="图片丢失了")
+              div.members-p-wrap
+                p 东风
+                p 冬天的一股风
+        div.row 
+          div.col-md-3.col-sm-6.members-wrap
+            a(href="").members-item
+              img(src="images/head-1.jpg", alt="图片丢失了")
+              div.members-p-wrap
+                p 春葱
+                p 春天的一颗葱
+          div.col-md-3.col-sm-6.members-wrap
+            a(href="").members-item
+              img(src="images/head-2.jpg", alt="图片丢失了")
+              div.members-p-wrap
+                p 夏花
+                p 夏天的一株花
+          div.col-md-3.col-sm-6.members-wrap
+            a(href="").members-item
+              img(src="images/head-10.jpg", alt="图片丢失了")
+              div.members-p-wrap
+                p 秋叶
+                p 秋天的一片叶子
+          div.col-md-3.col-sm-6.members-wrap
+            a(href="").members-item
+              img(src="images/head-4.jpg", alt="图片丢失了")
+              div.members-p-wrap
+                p 东风
+                p 冬天的一股风
+        a.member-more(href='') Find More
+      div.container.academics.wrap 
+        div.
 
   script(type='text/javascript', src='javascripts/jquery.slim.min.js')
   script(type='text/javascript', src='javascripts/popper.min.js')
   script(type='text/javascript', src='javascripts/bootstrap.min.js')
+
+    
