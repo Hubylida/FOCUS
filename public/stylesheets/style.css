@@ -117,7 +117,7 @@ a:hover {
   text-align: center;
   font-size: 3em;
   font-weight: 600;
-  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial,sans-serif;
   user-select: none;
 }
 
@@ -292,7 +292,7 @@ a:hover {
 
 .about-wrap {
   width: 100%;
-  padding: 50px 0;
+  padding-top: 50px;
   position: relative;
 }
 
@@ -324,23 +324,25 @@ a:hover {
   margin: 0 auto;
 }
 
-.explore-item {
-  display: block;
+.explore-item{
   text-align: center;
+  margin-bottom: .5em;
+}
+
+.explore-item a{
   font-size: 1.3em;
   color: #fff;
-  line-height: 2em;
+  padding: .4em 0;
   border-bottom: 2px solid transparent;
   transition: all .7s ease-out;
   position: relative;
 }
 
-.explore-item:hover {
+.explore-item a:hover {
   border-bottom-color: #fff;
-  color: #fff;
 }
 
-.explore-item::after {
+.explore-item a::after {
   display: block;
   content: "";
   height: 1.4em;
@@ -350,6 +352,30 @@ a:hover {
   bottom: 5px;
 }
 
-#a::after {
+#last-a::after {
   height: 0;
+}
+
+.footer{
+  height: 6em;
+  padding: 1.5em;
+  font-size: 1.5em;
+  font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif!important;
+  color: #fff;
+  background: #820000;
+  letter-spacing: 1px;
+}
+
+.footer-content,
+.footer-content a{
+  color: #fff;
+  font-size: .8em;
+}
+
+.footer-title{
+  color: #fff;
+}
+
+.footer-title:hover{
+  color: #fff;
 }

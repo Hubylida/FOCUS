@@ -163,12 +163,21 @@ html(lang="en-us")
         p Explore Focus
         div.explore-nav
           div.row
-            div.col-md-4
-              a.explore-item(href="") Members 
-            div.col-md-4
-              a.explore-item(href="") Research 
-            div.col-md-4
-              a.explore-item#a(href="") Events
+            div.col-md-4.col-sm-4.explore-item
+              a(href="") Members 
+            div.col-md-4.col-sm-4.explore-item
+              a(href="") Research 
+            div.col-md-4.col-sm-4.explore-item
+              a#last-a(href="") Events
+    section.footer 
+      div.row
+        a.footer-title.col-md-2(href="") FOCUS LAB
+        div.col-md-10
+          p.footer-content
+            a(href="") members 
+            a(href="") research 
+            a(href="") about 
+          p.footer-content @Nanjing University of Posts and Telecommunications. FOUCUS
   script(type='text/javascript', src='javascripts/jquery.slim.min.js')
   script(type='text/javascript', src='javascripts/popper.min.js')
   script(type='text/javascript', src='javascripts/bootstrap.min.js')
