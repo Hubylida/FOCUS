@@ -18,71 +18,131 @@ html(lang="en-us")
           div.col-md-7
             div.nav-bar
               a.nav-item(href="javascript:;") Members 
-              a.nav-item(href="javascript:;") Academics
-              a.nav-item(href="javascript:;") Activities
+              a.nav-item(href="javascript:;") Research
+              a.nav-item(href="javascript:;") Events
               a.nav-item(href="javascript:;") About 
     section.container-fluid.cover-scroll
       div.big-title FOCUS LAB
-      a.cover-footer#btn-scroll(href="#main-content") Welcome to FOCUS LAB
-    section#main-content 
+      a.cover-footer#btn-scroll(href="#member-wrap") Welcome to FOCUS LAB
+    section#member-wrap 
       div.container.members-head 
         h1 FOCUS MEMBERS
-        p The main members
+        p We work together and attempt to change the world.
       div.container
+        div.row.count-wrap
+          div.col-md-4.count-item 
+            p teacher
+            p 4 
+          div.col-md-4.count-item 
+            p Master&Doctor 
+            p unknow
+          div.col-md-4.count-item 
+            p undergraduate 
+            p unkonw
         div.row
-          div.col-md-3.col-sm-6.members-wrap
+          div.col-md-3.col-sm-6.item-wrap
             a(href="").members-item
               img(src="images/head-1.jpg", alt="图片丢失了")
               div.members-p-wrap
                 p 春葱
                 p 春天的一颗葱
-          div.col-md-3.col-sm-6.members-wrap
+          div.col-md-3.col-sm-6.item-wrap
             a(href="").members-item
               img(src="images/head-2.jpg", alt="图片丢失了")
               div.members-p-wrap
                 p 夏花
                 p 夏天的一株花
-          div.col-md-3.col-sm-6.members-wrap
+          div.col-md-3.col-sm-6.item-wrap
             a(href="").members-item
-              img(src="images/head-10.jpg", alt="图片丢失了")
+              img(src="images/head-3.jpg", alt="图片丢失了")
               div.members-p-wrap
                 p 秋叶
                 p 秋天的一片叶子
-          div.col-md-3.col-sm-6.members-wrap
+          div.col-md-3.col-sm-6.item-wrap
             a(href="").members-item
               img(src="images/head-4.jpg", alt="图片丢失了")
               div.members-p-wrap
                 p 东风
                 p 冬天的一股风
         div.row 
-          div.col-md-3.col-sm-6.members-wrap
+          div.col-md-3.col-sm-6.item-wrap
             a(href="").members-item
               img(src="images/head-1.jpg", alt="图片丢失了")
               div.members-p-wrap
                 p 春葱
                 p 春天的一颗葱
-          div.col-md-3.col-sm-6.members-wrap
+          div.col-md-3.col-sm-6.item-wrap
             a(href="").members-item
               img(src="images/head-2.jpg", alt="图片丢失了")
               div.members-p-wrap
                 p 夏花
                 p 夏天的一株花
-          div.col-md-3.col-sm-6.members-wrap
+          div.col-md-3.col-sm-6.item-wrap
             a(href="").members-item
-              img(src="images/head-10.jpg", alt="图片丢失了")
+              img(src="images/head-3.jpg", alt="图片丢失了")
               div.members-p-wrap
                 p 秋叶
                 p 秋天的一片叶子
-          div.col-md-3.col-sm-6.members-wrap
+          div.col-md-3.col-sm-6.item-wrap
             a(href="").members-item
               img(src="images/head-4.jpg", alt="图片丢失了")
               div.members-p-wrap
                 p 东风
                 p 冬天的一股风
         a.member-more(href='') Find More
-      div.container.academics.wrap 
-        div.
-
+    section.research-wrap 
+      div.container
+        div.research-head 
+          h1 Research 
+          p We hope our researchs could solve the problems around the world.
+          p We bring the convience to the world.
+      div.container
+        div.row.count-wrap
+          div.col-md-4.count-item 
+            p Directions
+            p 12
+          div.col-md-4.count-item 
+            p Cooperation 
+            p unknow
+          div.col-md-4.count-item 
+            p Future 
+            p unkonw
+        div.row 
+          div.col-md-3.col-sm-6.item-wrap 
+            a.researchs-item(href="")
+              div.img-wrap
+                img(src="images/research-1.jpg", alt="")
+              div.item-content
+                p Deep Learning & Picture
+                p Research on Image Semantic Segmentation Based on Depth Learning
+          div.col-md-3.col-sm-6.item-wrap 
+            a.researchs-item(href="")
+              div.img-wrap
+                img(src="images/research-2.png", alt="")
+              div.item-content 
+                p WiFi & Location
+                p Research on WiFi Based Indoor Location System               
+          div.col-md-3.col-sm-6.item-wrap 
+            a.researchs-item(href="")
+              div.img-wrap
+                img(src="images/research-3.jpg", alt="")
+              div.item-content
+                p Large Data & Communication
+                p Analysis of Mobile Communication KPI Based on Large Data
+          div.col-md-3.col-sm-6.item-wrap  
+            a.researchs-item(href="")
+              div.img-wrap
+                img(src="images/research-4.jpg", alt="")
+              div.item-content 
+                p AI & Bill
+                p Research on Artificial Intelligence Bill Recognition System
+        a.member-more(href='') Find More
+    section.events-wrap
+      div.container
+        div.events-head 
+          h1 Events 
+          p There are many iteresting events.
+          
   script(type='text/javascript', src='javascripts/jquery.slim.min.js')
   script(type='text/javascript', src='javascripts/popper.min.js')
   script(type='text/javascript', src='javascripts/bootstrap.min.js')
