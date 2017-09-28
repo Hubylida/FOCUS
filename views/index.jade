@@ -25,9 +25,10 @@ html(lang="en-us")
       div.big-title FOCUS LAB
       a.cover-footer#btn-scroll(href="#member-wrap") Welcome to FOCUS LAB
     section#member-wrap 
-      div.container.members-head 
-        h1 FOCUS MEMBERS
-        p We work together and attempt to change the world.
+      div.container
+        div.title 
+          h1 FOCUS MEMBERS
+          p We work together and attempt to change the world.
       div.container
         div.row.count-wrap
           div.col-md-4.count-item 
@@ -89,10 +90,10 @@ html(lang="en-us")
               div.members-p-wrap
                 p 东风
                 p 冬天的一股风
-        a.member-more(href='') Find More
+        a.find-more(href='') Find More
     section.research-wrap 
       div.container
-        div.research-head 
+        div.title 
           h1 Research 
           p We hope our researchs could solve the problems around the world.
           p We bring the convience to the world.
@@ -136,13 +137,38 @@ html(lang="en-us")
               div.item-content 
                 p AI & Bill
                 p Research on Artificial Intelligence Bill Recognition System
-        a.member-more(href='') Find More
+        a.find-more(href='') Find More
     section.events-wrap
       div.container
-        div.events-head 
+        div.title 
           h1 Events 
           p There are many iteresting events.
-          
+    section.about-wrap
+      div.container 
+        div.title 
+          h1 About Focus
+          p A place for learning, discovery, innovation, rexpression and courage.
+      div.container
+        div.row.count-about 
+          div.col-md-4.count-item 
+            p unknow 
+            p teachers
+          div.col-md-4.count-item 
+            p unknow 
+            p papers
+          div.col-md-4.count-item 
+            p unknow 
+            p students
+      div.explore 
+        p Explore Focus
+        div.explore-nav
+          div.row
+            div.col-md-4
+              a.explore-item(href="") Members 
+            div.col-md-4
+              a.explore-item(href="") Research 
+            div.col-md-4
+              a.explore-item#a(href="") Events
   script(type='text/javascript', src='javascripts/jquery.slim.min.js')
   script(type='text/javascript', src='javascripts/popper.min.js')
   script(type='text/javascript', src='javascripts/bootstrap.min.js')

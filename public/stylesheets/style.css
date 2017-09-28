@@ -112,9 +112,7 @@ a:hover {
   transition: all 3s ease-out;
 }
 
-.members-head h1,
-.research-head h1,
-.events-head h1{
+.title h1 {
   margin: .3em 0;
   text-align: center;
   font-size: 3em;
@@ -123,9 +121,7 @@ a:hover {
   user-select: none;
 }
 
-.members-head p,
-.research-head p,
-.events-head p{
+.title p {
   font-size: 2em;
   text-align: center;
   user-select: none;
@@ -193,25 +189,26 @@ a:hover {
   font-size: 1.5em;
 }
 
-.member-more {
+.find-more {
   display: block;
   width: 6em;
   padding: .5em 0;
   text-align: center;
   background: #b1040e;
   color: #f5f5f5;
-  transition: all .4s ease;
+  transition: all .5s ease;
   position: relative;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-.member-more:hover {
+.find-more:hover {
+  width: 8em;
   background: #C84242;
   color: #e5e5e5;
 }
 
-.member-more::after {
+.find-more::after {
   content: "";
   display: block;
   width: 0;
@@ -223,12 +220,13 @@ a:hover {
   top: 6px;
   left: 80px;
   transform: rotate(-45deg);
-  transition: all .4s ease;
+  transition: all .5s ease;
 }
 
-.member-more:hover:after {
+.find-more:hover:after {
   border-bottom-color: #C84242;
   border-right-color: #C84242;
+  left: 112px;
 }
 
 .research-wrap {
@@ -244,7 +242,7 @@ a:hover {
   transition: all .3s ease-in;
 }
 
-.researchs-item:hover{
+.researchs-item:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, .15), 0 6px 20px rgba(0, 0, 0, .15);
 }
 
@@ -260,7 +258,7 @@ a:hover {
   transition: all .3s ease-in;
 }
 
-.researchs-item:hover img{
+.researchs-item:hover img {
   transform: scale(1.04, 1.04);
 }
 
@@ -282,13 +280,76 @@ a:hover {
   color: #222;
 }
 
-.researchs-item:hover p:nth-child(2){
+.researchs-item:hover p:nth-child(2) {
   color: #006cb8;
 }
 
-.events-wrap{
+.events-wrap {
   width: 100%;
-  height: 100vh;
   padding: 50px 0;
   background: #f9f6ef;
+}
+
+.about-wrap {
+  width: 100%;
+  padding: 50px 0;
+  position: relative;
+}
+
+.count-about {
+  margin: 3em 0;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.explore {
+  height: 40em;
+  background: url(../images/2.jpeg) no-repeat;
+  background-position: center 0;
+  background-size: cover;
+  padding-top: 14em;
+  position: relative;
+}
+
+.explore p {
+  font-size: 5em;
+  color: #fff;
+  text-align: center;
+}
+
+.explore-nav {
+  width: 318px;
+  margin: 0 auto;
+}
+
+.explore-item {
+  display: block;
+  text-align: center;
+  font-size: 1.3em;
+  color: #fff;
+  line-height: 2em;
+  border-bottom: 2px solid transparent;
+  transition: all .7s ease-out;
+  position: relative;
+}
+
+.explore-item:hover {
+  border-bottom-color: #fff;
+  color: #fff;
+}
+
+.explore-item::after {
+  display: block;
+  content: "";
+  height: 1.4em;
+  border-right: 2px solid #fff;
+  position: absolute;
+  right: -17px;
+  bottom: 5px;
+}
+
+#a::after {
+  height: 0;
 }
