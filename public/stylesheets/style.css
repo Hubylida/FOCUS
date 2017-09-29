@@ -372,6 +372,10 @@ a:hover {
   font-size: .8em;
 }
 
+.footer-content a:hover{
+  text-decoration: underline;
+}
+
 .footer-title{
   color: #fff;
 }
