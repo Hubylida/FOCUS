@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
-
-/* GET users listing. */
+var fs = require('fs');
+/* GET home page. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  res.render('events');
 });
 
 module.exports = router;

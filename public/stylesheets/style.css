@@ -347,8 +347,7 @@ a:hover {
 }
 
 .footer{
-  height: 6em;
-  padding: 1.5em;
+  padding: 1em 1.5em;
   font-size: 1.5em;
   font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif!important;
   color: #fff;

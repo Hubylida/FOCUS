@@ -48,46 +48,21 @@ a:hover {
 }
 
 #main-content{
-  padding: 50px 0;
+  padding-top: 50px;
 }
 
-.head-title{
-  padding: 8px 16px;
-  font-size: 2em;
-  font-weight: 600;
-  margin: 0;
-}
-
-.members-wrap {
-  padding: 1em;
-}
-
-.members-item{
-  display: block;
-  padding-bottom: .5em;
-  border-radius: 10px;
-  text-align: center;
-  transition: all .7s ease;
-}
-
-.members-item img{
-  width: 80%;
-  border-radius: 50%;
+.artical-wrap{
+  margin: 50px 0;
+  padding: 1em 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15);
-  
 }
 
-.members-item p{
-  margin: 1em 0 0 0;
-  color: #222;
+.artical-pic img {
+  width: 100%;
 }
 
-.members-item:hover{
-  transform: scale(1.1);
-}
-
-.members-item:hover p{
-  color: #006cb8;
+.artical-p {
+  font-size: 1.2em;
 }
 
 .footer{

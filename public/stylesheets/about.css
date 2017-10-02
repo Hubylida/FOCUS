@@ -47,48 +47,32 @@ a:hover {
   margin: 0 auto;
 }
 
-#main-content{
+#main-content {
+  margin-top: 50px;
   padding: 50px 0;
 }
 
-.head-title{
-  padding: 8px 16px;
-  font-size: 2em;
-  font-weight: 600;
-  margin: 0;
-}
-
-.members-wrap {
-  padding: 1em;
-}
-
-.members-item{
-  display: block;
-  padding-bottom: .5em;
-  border-radius: 10px;
+.artical-1{
   text-align: center;
-  transition: all .7s ease;
-}
-
-.members-item img{
-  width: 80%;
-  border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15);
-  
 }
 
-.members-item p{
-  margin: 1em 0 0 0;
-  color: #222;
+.artical-1 img{
+  width: 100%;
 }
 
-.members-item:hover{
-  transform: scale(1.1);
+.artical-1 h1{
+  font-size: 2.5em;
+  font-weight: 600;
 }
-
-.members-item:hover p{
-  color: #006cb8;
-}
+.artical-1 p{
+  margin: 0;
+  padding: 1em 4em;
+  text-indent: 2em;
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 2;
+} 
 
 .footer{
   padding: 1em 1.5em;
