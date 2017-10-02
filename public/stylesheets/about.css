@@ -54,11 +54,14 @@ a:hover {
 
 .artical-1{
   text-align: center;
+  border-radius: 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15);
 }
 
 .artical-1 img{
   width: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .artical-1 h1{

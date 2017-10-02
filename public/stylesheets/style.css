@@ -56,7 +56,6 @@ a:hover {
   background: url('../images/1.jpg') no-repeat;
   background-position: center 0;
   background-size: cover;
-  position: relative;
 }
 
 .cover-scroll a {
