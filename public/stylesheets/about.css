@@ -10,12 +10,14 @@ a:hover {
   top: 0;
   left: 0;
   height: 50px;
-  background: #b1040e;
+  /* background: #b1040e; */
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15);
   z-index: 999;
 }
 
 .header a {
-  color: #fff;
+  color: #222;
 }
 
 .nav-item {
@@ -30,11 +32,11 @@ a:hover {
 }
 
 .nav-item:hover {
-  background: #820000;
+  background: #e3e3e3;
 }
 
 .nav-bar {
-  width: 440px;
+  width: 550px;
   margin: 0 auto;
 }
 
@@ -81,14 +83,15 @@ a:hover {
   padding: 1em 1.5em;
   font-size: 1.5em;
   font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif!important;
-  color: #fff;
-  background: #820000;
+  /* background: #820000; */
+  background: #fff;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .15);
   letter-spacing: 1px;
 }
 
 .footer-content,
 .footer-content a{
-  color: #fff;
+  color: #222;
   font-size: .8em;
 }
 
@@ -97,9 +100,9 @@ a:hover {
 }
 
 .footer-title{
-  color: #fff;
+  color: #222;
 }
 
 .footer-title:hover{
-  color: #fff;
+  color: #222;
 }

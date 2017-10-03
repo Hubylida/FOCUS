@@ -10,12 +10,13 @@ a:hover {
   top: 0;
   left: 0;
   height: 50px;
-  background: #243E6E;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15); 
   z-index: 999;
 }
 
 .header a {
-  color: #fff;
+  color: #222;
 }
 
 .nav-item {
@@ -30,11 +31,11 @@ a:hover {
 }
 
 .nav-item:hover {
-  background: #172A4E;
+  background: #e3e3e3;
 }
 
 .nav-bar {
-  width: 440px;
+  width: 550px;
   margin: 0 auto;
 }
 
@@ -67,11 +68,9 @@ a:hover {
   margin: 0 auto;
 }
 
-.member-title h2,
-.member-title h5{
-  margin: 1em 0;
+.member-title{
+  padding: 4em 1em 0 1em;
 }
-
 .side-p{
   margin: 2em 0;
   padding: 2em 1em;
@@ -82,21 +81,21 @@ a:hover {
 }
 
 .member-intro p{
-  text-indent: 2em;
+  font-size: 1.1em;
 }
 
 .footer{
   padding: 1em 1.5em;
   font-size: 1.5em;
   font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif!important;
-  color: #fff;
-  background: #243E6E;
+  background: #fff;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .15);
   letter-spacing: 1px;
 }
 
 .footer-content,
 .footer-content a{
-  color: #fff;
+  color: #222;
   font-size: .8em;
 }
 
@@ -105,9 +104,9 @@ a:hover {
 }
 
 .footer-title{
-  color: #fff;
+  color: #222;
 }
 
 .footer-title:hover{
-  color: #fff;
+  color: #222;
 }
