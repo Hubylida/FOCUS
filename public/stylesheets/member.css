@@ -1,0 +1,112 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  background: #243E6E;
+  z-index: 999;
+}
+
+.header a {
+  color: #fff;
+}
+
+.nav-item {
+  display: inline-block;
+  width: 110px;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+  vertical-align: middle;
+  transition: background .5s;
+}
+
+.nav-item:hover {
+  background: #172A4E;
+}
+
+.nav-bar {
+  width: 440px;
+  margin: 0 auto;
+}
+
+.head-name {
+  display: block;
+  width: 230px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif!important;
+  line-height: 50px;
+}
+
+#main-content{
+  margin-top: 50px;
+  padding: 50px 0;
+}
+
+.member-wrap{
+  padding: 2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15);
+}
+
+.member-img{
+  text-align: center;
+}
+
+.member-img img{
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.member-title h2,
+.member-title h5{
+  margin: 1em 0;
+}
+
+.side-p{
+  margin: 2em 0;
+  padding: 2em 1em;
+}
+
+.member-intro{
+  margin: 0 auto;
+}
+
+.member-intro p{
+  text-indent: 2em;
+}
+
+.footer{
+  padding: 1em 1.5em;
+  font-size: 1.5em;
+  font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif!important;
+  color: #fff;
+  background: #243E6E;
+  letter-spacing: 1px;
+}
+
+.footer-content,
+.footer-content a{
+  color: #fff;
+  font-size: .8em;
+}
+
+.footer-content a:hover{
+  text-decoration: underline;
+}
+
+.footer-title{
+  color: #fff;
+}
+
+.footer-title:hover{
+  color: #fff;
+}
