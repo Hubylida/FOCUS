@@ -16,8 +16,8 @@ router.get('/members', function (req, res, next) {
   res.render('members');
 });
 
-router.get('/research', function (req, res, next) {
-  res.render('research');
+router.get('/researchs', function (req, res, next) {
+  res.render('researchs');
 });
 
 router.get('/events', function (req, res, next) {
