@@ -147,7 +147,7 @@ a:hover {
 
 .members-item {
   display: block;
-  padding: 1em 0;
+  padding: 1em .7em;
   text-align: center;
   background: #fff;
   color: #050505;

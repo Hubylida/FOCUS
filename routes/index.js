@@ -32,21 +32,17 @@ router.get('/about', function (req, res, next) {
   res.render('about');
 });
 
-// router.get('/members_1',function(req,res,next){
-//   res.render('member',{"name":data[0].name,"title":data[0].title,"head_img":data[0].head_img,"intro":data[0].intro,"phone":data[0].phone,"Email":data[0].Email});
-// })
 
 for (let i = 0; i < 54; i++) {
-  router.get('/members_' + i, function (req, res, next) {
+  router.get('/members_' + (i+1), function (req, res, next) {
     res.render('member', {
-      "name": data[0].name,
-      "title": data[0].title,
-      "head_img": data[0].head_img,
-      "intro": data[0].intro,
-      "phone": data[0].phone,
-      "Email": data[0].Email
+      "name": data[i].name,
+      "title": data[i].title,
+      "head_img": data[i].head_img,
+      "intro": data[i].intro,
+      "phone": data[i].phone,
+      "Email": data[i].Email
     });
   });
 }
-
 module.exports = router;
