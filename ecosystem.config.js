@@ -9,6 +9,7 @@ module.exports = {
     {
       name      : 'FOCUS',
       script    : 'app.js',
+      watch     : true,
       env: {
         COMMON_VARIABLE: 'true'
       },
