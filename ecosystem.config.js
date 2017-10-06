@@ -7,7 +7,7 @@ module.exports = {
 
     // First application
     {
-      name      : 'API',
+      name      : 'FOCUS',
       script    : 'app.js',
       env: {
         COMMON_VARIABLE: 'true'
@@ -42,7 +42,7 @@ module.exports = {
       host : '101.236.29.56',
       ref  : 'origin/master',
       repo : 'git@github.com:Hubylida/FOCUS.git',
-      path : '/Documents/Github/FOCUS',
+      path : '/var/www/development',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env dev',
       env  : {
         NODE_ENV: 'dev'
