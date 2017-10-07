@@ -5,13 +5,14 @@ a {
 a:hover {
   text-decoration: none;
 }
+
 .header {
   position: fixed;
   top: 0;
   left: 0;
   height: 50px;
   background: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15);
   z-index: 999;
 }
 
@@ -48,47 +49,31 @@ a:hover {
   line-height: 50px;
 }
 
-#main-content{
+#main-content {
   margin-top: 50px;
   padding: 50px 0;
 }
 
-.member-wrap{
-  border-radius: 5px;
-  padding: 2em;
+.research-wrap {
+  padding-bottom: 2em;
   box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15);
 }
 
-.member-img{
+.research-wrap img{
+  width: 100%;
+}
+
+.research-wrap h1{
+  padding: 0 2em;
   text-align: center;
 }
 
-.member-img img{
-  width: 75%;
-  border-radius: 50%;
-  margin: 0 auto;
+.research-wrap  p{
+  padding: 0 2em;
+  text-indent: 2em;
 }
 
-.member-title{
-  padding: 4em 1em 0 1em;
-}
-.side-p{
-  margin: 2em 0;
-  padding: 2em 1em;
-}
-
-.member-intro{
-  margin: 0 auto;
-}
-
-.member-intro p{
-  font-size: 1.1em;
-}
-
-.footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.footer {
   padding: 1em 1.5em;
   font-size: 1.5em;
   font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif!important;
@@ -98,25 +83,19 @@ a:hover {
 }
 
 .footer-content,
-.footer-content a{
+.footer-content a {
   color: #222;
   font-size: .8em;
 }
 
-.footer-content a:hover{
+.footer-content a:hover {
   text-decoration: underline;
 }
 
-.footer-title{
+.footer-title {
   color: #222;
 }
 
-.footer-title:hover{
+.footer-title:hover {
   color: #222;
-}
-
-@media screen and (max-width: 420px){
-  .footer{
-    position: static;
-  }
 }

@@ -45,4 +45,8 @@ for (let i = 0; i < 54; i++) {
     });
   });
 }
+
+router.get('/researchs_1',function(req,res,next){
+  res.render('research');
+})
 module.exports = router;

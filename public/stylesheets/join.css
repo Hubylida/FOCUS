@@ -74,7 +74,10 @@ a:hover {
   padding: 0 1em;
 }
 
-/* .footer{
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding: 1em 1.5em;
   font-size: 1.5em;
   font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif!important;
@@ -99,4 +102,10 @@ a:hover {
 
 .footer-title:hover{
   color: #222;
-} */
+}
+
+@media screen and (max-width: 420px){
+  .footer{
+    position: static;
+  }
+}
