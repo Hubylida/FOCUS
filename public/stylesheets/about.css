@@ -85,7 +85,7 @@ a:hover {
   font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif!important;
   /* background: #820000; */
   background: #fff;
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .15);
+  border-top: 1px solid #e5e5e5;
   letter-spacing: 1px;
 }
 

@@ -33,7 +33,7 @@ router.get('/about', function (req, res, next) {
 });
 
 
-for (let i = 0; i < 54; i++) {
+for (let i = 0; i < 55; i++) {
   router.get('/members_' + (i+1), function (req, res, next) {
     res.render('member', {
       "name": data[i].name,
