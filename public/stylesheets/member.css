@@ -54,6 +54,7 @@ a:hover {
 }
 
 .member-wrap{
+  min-height: 71vh;
   border-radius: 5px;
   padding: 2em;
   box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15);
