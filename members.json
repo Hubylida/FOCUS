@@ -1,5 +1,4 @@
-[
-  {
+[{
     "name": "桂冠",
     "title": "FOCUS LAB负责人,博士生导师,江苏特聘教授,江苏省双创人才,1311鼎山学者,南京高层次引进人才",
     "head_img": "images/guiguan.jpg",
@@ -11,7 +10,7 @@
     "name": "Hikmet Sari",
     "title": "欧洲科学院院士,土耳其科学院院士,IEEE Fellow,IEEE阿姆斯特朗奖获得者,南京高层次引进人才",
     "head_img": "images/sari_hikmet.jpg",
-    "intro": "Hikmet Sari is Guest Professor at NUPT, Nanjing, and Chief Scientist of Sequans Communications. Previously, he held research and management positions at Philips, SAT, Alcatel, Pacific Broadband Communications, and Juniper Networks, and then he was Professor and Head of the Telecommunications Department at SUPELEC from 2003 to 2016. He received his Engineering Diploma and Ph.D. from the ENST, Paris, France, and the Habilitation degree from the University of Paris-Sud, Orsay.Dr. Sari has served as an Editor of the IEEE Transactions on Communications, Guest Editor of the European Transactions on Telecommunications, Guest Editor of IEEE JSAC, Associate Editor of the IEEE Communications Letters, Chair of the Communication Theory Symposium of ICC 2002, Technical Program Chair of ICC 2004, Vice General Chair of ICC 2006, General Chair of PIMRC 2010, General Chair of WCNC 2012, Executive Chair of WCNC 2014, Executive Co-Chair of ICC 2016, Chair of the GITC in 2010-2011, Distinguished Lecturer of the IEEE Communications Society (2001-2006), Member of the IEEE Fellow Evaluation Committee (2002-2007), Member of the Awards Committee (2005 – 2007), and Vice-President for Conferences of the IEEE Communications Society during 2014 – 2015. He is currently serving as Executive Chair of ICC 2017 and General Co-Chair of PIMRC 2019.His distinctions include the IEEE Fellow Grade and the Andre Blondel Medal in 1995, the Edwin H. Armstrong Award in 2003, the Harold Sobol Award in 2012, and election to the European Academy and to the Science Academy of Turkey in 2012.",
+    "intro": "  Hikmet Sari教授目前是法国顶尖的工程学校Centrale Supélec通信系教授和主任，也是LTE芯片组解决方案的领先开发商和供应商Sequans Communications的首席科学家。曾在飞利浦研究实验室，SAT，阿尔卡特，太平洋宽带通信和瞻博网络等多个行业担任研究和管理职位。在OFDM/OFDMA、MIMO等领域做出了突出的贡献，特别是在单载波系统频域均衡技术领域的贡献属于该领域的技术性贡献，已经成功应用到了WiMAX和LTE/LTE-A（4G）的国际技术标准中。近年来，他致力于大规模MIMO系统的空间调制技术研究系统的空间调制技术研究，在国际上处于领先水平。获得过的奖项有IEEE Fellow Grade（1995），André Blondel Medal（1995），Edwin H. Armstrong成就奖（2003），Harold Sobol奖（2012），以及欧洲学院 ）和2012年土耳其科学院奖。他在法国巴黎高等电信学院（ENST）获得了工程学位和博士学位，随后在位于奥赛的巴黎南方大学从事博士后研究工作。Sari教授曾任IEEE通信学报编辑（1987-1981年），欧洲电信交易学会客座编辑（1993年），IEEE JSAC客座编辑（1999年），IEEE通信快报副主编（1999–2002年）。2001年至2006年任IEEE通信学会杰出讲师，2002年至2007年任IEEE研究员评估委员会成员，2005年至2007年任奖励委员会成员。Sari教授曾任ICC 2002（纽约）通信理论研讨会主席，ICC 2004（巴黎）技术方案主席，ICC 2006（伊斯坦布尔）副主席，PIMRC 2010（伊斯坦布尔）大会主席，WCNC 2012（巴黎）大会主席，WCNC 2014（伊斯坦布尔）大会执行主席，ICUWB 2014（巴黎）大会主席，IEEE Black SeaCom 2015（罗马尼亚康斯坦察）联席主席，EuCNC2015（巴黎）技术方案主席，ICC 2016（吉隆坡）联合执行主席。他还在2010年至2011年期间担任Globecom和ICC技术内容（GITC）委员会主席，2014年至2015年期间担任IEEE通信学会会议副主席。目前，他是2016年ATC会议（越南河内）的联合主席，2017年ICC国际会议（巴黎）执行主席和2018年PIMRC会议（伊斯坦布尔）主席。",
     "phone": "",
     "Email": ""
   },
@@ -28,7 +27,7 @@
     "title": "中国科学院院士，中国科学技术大学教授，深圳大学计算机与软件学院院长，博士生导师，哈尔滨工业大学深圳研究生院兼职博导，天津工业大学荣誉教授",
     "head_img": "images/chenguoliang.png",
     "intro": "陈国良（1938.6.3-）男，安徽颍上人，中国科学技术大学教授，博士生导师。1956年考入交通大学，1961年毕业于西安交通大学无线电系计算机专业。现任中国科学技术大学软件学院院长，国家高性能计算中心（合肥）主任，深圳大学计算机与软件学院院长，智能感知与图像理解教育部重点实验室（西安电子科技大学）学术委员会主任。中国计算机学会高性能计算专业委员会主任，享受国家政府特殊津贴。1973年起在中国科学技术大学任教。陈国良陈国良1981年至1983年，在美国普度大学作访问学者。2003年当选中国科学院院士2009年起兼任深圳大学计算机与软件学院院长。2011年受聘为天津工业大学荣誉教授。 2013年受聘为河南大学软件学院名誉院长及讲座教授2015年受聘为哈尔滨工业大学深圳研究生院兼职博导国家教育部高等学校计算机科学技术教学指导委员会副主任，全国首届高等学校教学名师，安徽省计算机学会理事长，国际高性能计算（亚洲）常务理事。是我国非数值并行算法研究的学科带头人，他围绕着并行算法的教学与研究，逐渐形成了“算法理论－算法设计－算法实现－算法应用”一套完整的并行算法学科体系，提出了“结构－算法－编程”一体化的并行计算研究方法。他率先创建的我国第一个国家高性能计算中心是我国并行算法研究、环境科学与工程计算软件等的科研与教学基地，在学术界和教育界有一定的影响和地位。80年代初在国内最早开展了非数值并行算法的研究。在该方面取得了许多国际同期最好的成果，包括分组选择网络、Ben陈国良 院士陈国良 院士es网络选路算法、VLSI平面嵌入算法和网络最大流算法等；改进了某些图灵奖获主的研究工作，包括改进Yao的选择网络时间界、并行化Knuth的顺序串匹配算法和修正Karp的随机串匹配为确定串匹配算法；在国际上首次分析了(0,d]均匀分布调和装箱算法和二维条形装箱NFDH算法的平均性能。受到国内外同行的高度评价。90年代初在国内早期开展了神经网络组合优化和遗传算法的研究，促进了交叉学科的研究与发展；与国际同期研制出具有世界先进水平的并行神经信息处理系统，为我国神经网络的教学、研究与应用提供了良好的工具与环境。90年代中期开展了高性能计算及其应用的研究，率先成立了我国第一个国家高性能计算中心，推进了我国该领域的发展；开发了自主版权的国产曙光并行机“用户开发环境”商用软件，为推广国产并行机应用做出了重要贡献；研制了基于曙光1000的安徽省防灾减灾决策支持系统，在安徽省灾害性天气预报和汛期淮河流域群库优化调度中起了重要作用，产生了显著的社会和经济效益。他为负责人的科研团队，采用我国自主设计的“龙芯3B”八核处理器，成功研制出万亿次高性能计算机“KD－90”。他承担了国家级项目15项，已完成11项。发表论文170多篇（他和学生第一作者 110多篇），著作8册，他引540余次。获国家科技进步二等奖，国家级教学成果二等奖，省、部级科技进步一、二等奖共12项，11项排名第一。培养了一批从事算法研究的高级人才，已毕业博士生26名。学风正派，为人师表。",
-    "phone":  "",
+    "phone": "",
     "Email": ""
   },
   {
@@ -64,6 +63,271 @@
     "Email": ""
   },
   {
+    "name": "Hsiao-Hwa Chen",
+    "title": "",
+    "head_img": "images/hsiao.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "Tomohiko Taniguchi",
+    "title": "",
+    "head_img": "images/tomohiko.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "郑宝玉",
+    "title": "郑宝玉教授、博士生导师，原南京邮电学院副院长。",
+    "head_img": "images/zhengbaoyu.png",
+    "intro": "主要研究方向为智能信号处理、通信信号处理、量子信息处理。主持完成了多个国家自然科学基金和省部级科研项目，曾获国家科技进步二等奖1项，省部级科技进步奖3项，出版学术著(译)作4部，发表论文100余篇。享受国务院政府特殊津贴，获国家有突出贡献中青年专家(1998)、江苏省高校优秀学科带头人(1997)、江苏省优秀研究生导师(2000)等多项荣誉称号，并入选江苏省“333工程”（第二层次）首批培养对象。郑宝玉教授完成的国家自然科学基金项目为“ 认知无线网络中多用户协作通信关键技术研究”， 编号60972039， 执行年限为2010 年1 月到2012年12 月， 已经结题并被评为优。 在国内外重要学术期刊发表论文85 篇， 其中国际刊物论文22 篇， SCI 检索21 篇， EI 检索31 篇； 另有学术会议论文42 篇， 其中国际会议论文31 篇， EI检索28 篇， ISTP 检索9 篇。 申请发明专利4 篇， 其中授权专利2篇（ 授权号为ZL200910234621 .5， ZL200910234619 .8）。 培养博士研究生11 名(9 名博士生已经毕业， 1 名博士后出站)， 硕士研究生20 名(12 名硕士生已经毕业)。 其中， 朱佳的博士论文被评为2011 年江苏省优秀博士论文， 孙大卫的硕士论文被评为2012 年江苏省优秀硕士论文。 ",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "Xiang-Gen Xia",
+    "title": "",
+    "head_img": "images/xianggen.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "牛志升",
+    "title": "",
+    "head_img": "images/niuzhisheng.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "Minho Jo",
+    "title": "",
+    "head_img": "images/minho.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "Marco Di Renzo",
+    "title": "",
+    "head_img": "images/marco.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "江涛",
+    "title": "",
+    "head_img": "images/jiangtao.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "陈恩红",
+    "title": "",
+    "head_img": "images/chenenhong.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "李涛",
+    "title": "",
+    "head_img": "images/litao.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "王汝传",
+    "title": "",
+    "head_img": "images/wangruchuan.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "王亮",
+    "title": "",
+    "head_img": "images/wangliang.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "李克秋",
+    "title": "",
+    "head_img": "images/likeqiu.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "金石",
+    "title": "",
+    "head_img": "images/jinshi.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "高飞飞",
+    "title": "",
+    "head_img": "images/gaofeifei.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "陈捷",
+    "title": "",
+    "head_img": "images/chenjie.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "张建华",
+    "title": "",
+    "head_img": "images/zhangjianhua.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "戴凌龙",
+    "title": "",
+    "head_img": "images/dailinglong.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "曹汛",
+    "title": "",
+    "head_img": "images/caoxu.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "虞文武",
+    "title": "",
+    "head_img": "images/lvwenwu.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "何良华",
+    "title": "",
+    "head_img": "images/helianghua.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "贾云健",
+    "title": "",
+    "head_img": "images/jiayunjian.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "王永进",
+    "title": "",
+    "head_img": "images/wangyongjin.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "韩光洁",
+    "title": "",
+    "head_img": "images/hanguangjie.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "季一木",
+    "title": "",
+    "head_img": "images/jiyimu.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "梅林",
+    "title": "",
+    "head_img": "images/meilin.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "Mianxiong Dong",
+    "title": "",
+    "head_img": "images/mianxiong.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "Li Xu",
+    "title": "",
+    "head_img": "images/lixu.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "Kaoru Ota",
+    "title": "",
+    "head_img": "images/kaoru.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "Yegui Xiao",
+    "title": "",
+    "head_img": "images/yegui.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "Guoyue Chen",
+    "title": "",
+    "head_img": "images/guoyue.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "沈渊",
+    "title": "",
+    "head_img": "images/shenyuan.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+  {
+    "name": "王慧明",
+    "title": "",
+    "head_img": "images/wanghuimin.png",
+    "intro": "",
+    "phone": "",
+    "Email": ""
+  },
+
+  {
     "name": "熊健",
     "title": "电子科技大学博士，FOCUS讲师",
     "head_img": "images/xiongjian.jpeg",
@@ -77,6 +341,6 @@
     "head_img": "images/yangjie.jpeg",
     "intro": "杨洁，讲师、博士生在读。女，1980年生，博士生在读，南京邮电大学通信与信息工程学院讲师。多年来一直从事数字移动通信关键技术研究。主持和参与完成了项目：（1）“新一代宽带无线移动通信网”国家重大专项“IMT-Advanced多址技术研发”子课题；（2）江苏省高校自然科学基础研究计划重大项目“多天线宽带系统信道估计高效实用算法探索”；(3) 横向项目“管网测漏系统的设计”及“120急救RFID车联系统设计”，期间共完成科研论文6篇（6篇发表），其中一篇被SCI源期刊 International Journal of Communication Systems录用。在压缩感知和干扰管理算法方面取得了初步的研究成果，具有一定的横向项目经验。",
     "phone": "",
-    "Email":""
+    "Email": ""
   }
 ]
