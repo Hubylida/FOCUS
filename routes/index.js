@@ -2,10 +2,14 @@ var express = require('express');
 var router = express.Router();
 var fs = require('fs');
 var path = require('path');
-var data_str = fs.readFileSync('members.json', {
+var member_str = fs.readFileSync('members.json', {
     encoding: 'UTF-8'
   }),
-  data = JSON.parse(data_str);
+  member = JSON.parse(member_str);
+var event_str = fs.readFileSync('events.json', {
+    encoding: 'UTF-8'
+  }),
+  event = JSON.parse(event_str);
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -34,19 +38,45 @@ router.get('/about', function (req, res, next) {
 
 
 for (let i = 0; i < 55; i++) {
-  router.get('/members_' + (i+1), function (req, res, next) {
+  router.get('/members_' + (i + 1), function (req, res, next) {
     res.render('member', {
-      "name": data[i].name,
-      "title": data[i].title,
-      "head_img": data[i].head_img,
-      "intro": data[i].intro,
-      "phone": data[i].phone,
-      "Email": data[i].Email
+      "name": member[i].name,
+      "title": member[i].title,
+      "head_img": member[i].head_img,
+      "intro": member[i].intro,
+      "phone": member[i].phone,
+      "Email": member[i].Email
     });
   });
 }
 
-router.get('/researchs_1',function(req,res,next){
+router.get('/researchs_1', function (req, res, next) {
   res.render('research');
 })
+
+for (let j = 0; j < 10; j++) {
+  router.get('/events_' + (j + 1), function (req, res, next) {
+    res.render('event', {
+      "title": event[j].title,
+      "head_img": event[j].head_img,
+      "img_1": event[j].img_1,
+      "img_2": event[j].img_2,
+      "img_3": event[j].img_3,
+      "img_4": event[j].img_4,
+      "img_5": event[j].img_5,
+      "img_6": event[j].img_6,
+      "img_7": event[j].img_7,
+      "img_8": event[j].img_8,
+      "p_1": event[j].p_1,
+      "p_2": event[j].p_2,
+      "p_3": event[j].p_3,
+      "p_4": event[j].p_4,
+      "p_5": event[j].p_5,
+      "p_6": event[j].p_6,
+      "p_7": event[j].p_7,
+      "p_8": event[j].p_8,
+      "content_footer": event[j].content_footer
+    })
+  })
+}
 module.exports = router;

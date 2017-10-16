@@ -54,38 +54,27 @@ a:hover {
   padding: 50px 0;
 }
 
-.member-wrap {
-  min-height: 71vh;
-  border-radius: 5px;
-  padding: 2em;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15);
-}
-
-.member-img {
+.event-wrap h1{
   text-align: center;
 }
 
-.member-img img {
-  width: 75%;
-  border-radius: 50%;
-  margin: 0 auto;
+#head_img{
+  width: 100%;
 }
 
-.member-title {
-  padding: 4em 1em 0 1em;
+.event-content p{
+  text-indent: 2em;
+  font-size: 1.3em;
 }
 
-.side-p {
-  margin: 2em 0;
-  padding: 2em 1em;
+.event-content img{
+  width: 100%;
 }
 
-.member-intro {
-  margin: 0 auto;
-}
-
-.member-intro p {
-  font-size: 1.1em;
+#content_footer{
+  text-indent: 0;
+  font-size: 1em;
+  color: #006cb8;
 }
 
 .footer {
