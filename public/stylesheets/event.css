@@ -49,29 +49,33 @@ a:hover {
   line-height: 50px;
 }
 
+#nav-menu{
+  display: none;
+}
+
 #main-content {
   margin-top: 50px;
   padding: 50px 0;
 }
 
-.event-wrap h1{
+.event-wrap h1 {
   text-align: center;
 }
 
-#head_img{
+#head_img {
   width: 100%;
 }
 
-.event-content p{
+.event-content p {
   text-indent: 2em;
   font-size: 1.3em;
 }
 
-.event-content img{
+.event-content img {
   width: 100%;
 }
 
-#content_footer{
+#content_footer {
   text-indent: 0;
   font-size: 1em;
   color: #006cb8;
@@ -107,5 +111,38 @@ a:hover {
 @media screen and (max-width: 420px) {
   .footer {
     position: static;
+  }
+  .head-name {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+  }
+  #nav-menu {
+    display: block;
+    width: 1.7em;
+    height: 1.5em;
+    padding: .3em 0;
+    border-top: .3em solid #444;
+    border-bottom: .3em solid #444;
+    background: #444;
+    background-clip: content-box;
+    position: absolute;
+    top: .7em;
+    right: 1.5em;
+  }
+  .nav-bar {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 -1em;
+    background: #fff;
+    display: none;
+  }
+  .nav-item {
+    width: 100%;
+    display: inine-block;
+    padding-left: 6em;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    text-align: left;
   }
 }

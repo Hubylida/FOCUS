@@ -10,11 +10,12 @@ html(lang="en-us")
     link(rel="stylesheet", href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css")
     title FOCUS
   body
-  div
-    section.header.container-fluid
+    div
+      section.header.container-fluid
         div.row
           div.col-md-5
             a.head-name(href="/") FOCUS LAB
+            div#nav-menu 
           div.col-md-7
             div.nav-bar
               a.nav-item(href="members") Members 
@@ -22,208 +23,210 @@ html(lang="en-us")
               a.nav-item(href="events") Events
               a.nav-item(href="join") Join us
               a.nav-item(href="about") About 
-    section.container-fluid.cover-scroll
-      div.big-title FOCUS LAB
-      a.cover-footer#btn-scroll(href="#member-wrap") Welcome to FOCUS LAB
-    section#member-wrap 
-      div.container
-        div.title 
-          h1 FOCUS MEMBERS
-          p We work together and attempt to change the world.
-      div.container
-        div.row.count-wrap
-          div.col-md-4.count-item 
-            p Professors
-            p 41
-          div.col-md-4.count-item 
-            p Master&Doctor 
-            p unknow
-          div.col-md-4.count-item 
-            p undergraduate 
-            p unkonw
-        div.row
-          div.col-md-3.col-sm-6.item-wrap
-            a(href="members_1").members-item
-              img(src="images/guiguan.jpg", alt="图片丢失了")
-              div.members-p-wrap
-                p 桂冠 教授
-                p 江苏特聘教授 1311鼎山学者 江苏省双创人才
-          div.col-md-3.col-sm-6.item-wrap
-            a(href="members_2").members-item
-              img(src="images/sari_hikmet.jpg", alt="图片丢失了")
-              div.members-p-wrap
-                p Hikmet Sari 教授
-                p 欧洲科学院院士
-                  |土耳其科学院院士
-                  |IEEE阿姆斯特朗奖获得者
-          div.col-md-3.col-sm-6.item-wrap
-            a(href="members_3").members-item
-              img(src="images/peter_grunberg.jpg", alt="图片丢失了")
-              div.members-p-wrap
-                p Peter Grünberg 教授
-                p 2007年诺贝尔物理学奖获得者 波鸿大学的荣誉博士头衔
-          div.col-md-3.col-sm-6.item-wrap
-            a(href="members_4").members-item
-              img(src="images/chenguoliang.png", alt="图片丢失了")
-              div.members-p-wrap
-                p 陈国良 教授
-                p 中国科学院院士高性能计算领域专家
-        div.row 
-          div.col-md-3.col-sm-6.item-wrap
-            a(href="members_5").members-item
-              img(src="images/yangzhen.png", alt="图片丢失了")
-              div.members-p-wrap
-                p 杨震 教授
-                p 南邮校长、信息与通信工程一级重点学科带头人
-          div.col-md-3.col-sm-6.item-wrap
-            a(href="members_6").members-item
-              img(src="images/neikato.png", alt="图片丢失了")
-              div.members-p-wrap
-                p Nei Kato 教授
-                p IEEE TVT主编、IEEE Network主编 日本东北大学教授
-          div.col-md-3.col-sm-6.item-wrap
-            a(href="members_7").members-item
-              img(src="images/Sherman.jpg", alt="图片丢失了")
-              div.members-p-wrap
-                p Sherman Shen 教授
-                p 加拿大两院院士，IEEE IoT主编 滑铁卢大学教授
-          div.col-md-3.col-sm-6.item-wrap
-            a(href="members_8").members-item
-              img(src="images/Fumiyuki.png", alt="图片丢失了")
-              div.members-p-wrap
-                p Fumiyuki Adachi 教授
-                p IEEE Fellow、 IEICE Fellow、日本东北大学教授
-        a.find-more(href="members") Find More
-    section.research-wrap 
-      div.container
-        div.title 
-          h1 Research 
-          p We hope our researchs could solve the problems around the world.
-          p We bring the convience to the world.
-      div.container
-        div.row.count-wrap
-          div.col-md-4.count-item 
-            p Directions
-            p 12
-          div.col-md-4.count-item 
-            p Cooperation 
-            p unknow
-          div.col-md-4.count-item 
-            p Future 
-            p unkonw
-        div.row 
-          div.col-md-3.col-sm-6.item-wrap 
-            a.researchs-item(href="researchs_1")
-              div.img-wrap
-                img(src="images/research-1.jpg", alt="")
-              div.item-content
-                p Deep Learning & Picture
-                p Research on Image Semantic Segmentation Based on Depth Learning
-          div.col-md-3.col-sm-6.item-wrap 
-            a.researchs-item(href="researchs_2s")
-              div.img-wrap
-                img(src="images/research-2.png", alt="")
-              div.item-content 
-                p WiFi & Location
-                p Research on WiFi Based Indoor Location System               
-          div.col-md-3.col-sm-6.item-wrap 
-            a.researchs-item(href="")
-              div.img-wrap
-                img(src="images/research-3.jpg", alt="")
-              div.item-content
-                p Big Data & Communication
-                p Analysis of Mobile Communication KPI Based on Large Data
-          div.col-md-3.col-sm-6.item-wrap  
-            a.researchs-item(href="")
-              div.img-wrap
-                img(src="images/research-4.jpg", alt="")
-              div.item-content 
-                p AI & Bill
-                p Research on Artificial Intelligence Bill Recognition System
-        a.find-more(href="researchs") Find More
-    section.events-wrap
-      div.container
-        div.title 
-          h1 Events 
-          p There are many interesting events.
-        div.row 
-          div.col-md-3.col-sm-6.event-wrap
-            a(href="events_1").events-item
-              div.img-wrap 
-                img(src="images/events/events_1/1.jpg", alt="")
-              div.event-content
-                p Hikmet Sari教授受邀在PIRMC2017做大会特邀报告
-                p Hikmet Sari教授在第二十八届IEEE个人，室内和移动无线电通信国际研讨会（IEEE PIMRC 2017）作《MULTIPLE ACCESS FOR 5G – CHALLENGES AHEAD》主题报告。
-                div.event-time 
-                  span oct 
-                  span 12
-          div.col-md-3.col-sm-6.event-wrap
-            a(href="events_2").events-item
-              div.img-wrap 
-                img(src="images/events/events_2/1.jpg", alt="")
-              div.event-content
-                p 2017开放计算和普适感知前沿国际论坛开幕
-                p Conference Program International Symposium on Frontier of Open Computing and Ubiquitous Sensing(FOCUS 2017)
-                div.event-time 
-                  span oct 
-                  span 11
-          div.col-md-3.col-sm-6.event-wrap
-            a(href="events_3").events-item
-              div.img-wrap 
-                img(src="images/events/events_3/1.jpg", alt="")
-              div.event-content
-                p 加拿大滑铁卢大学Sherman Shen教授、日本东北大学Nei Kato教授作主题报告
-                p Conference Program International Symposium on Frontier of Open Computing and Ubiquitous Sensing(FOCUS 2017)
-                div.event-time 
-                  span oct 
-                  span 11
-          div.col-md-3.col-sm-6.event-wrap
-            a(href="events_4").events-item
-              div.img-wrap 
-                img(src="/images/events/events_4/11.jpg", alt="")
-              div.event-content
-                p 日本东北大学Fumiyuki Adachi教授、清华大学高飞飞副教授、大连理工大学赵楠副教授作主题报告
-                p Conference Program International Symposium on Frontier of Open Computing and Ubiquitous Sensing(FOCUS 2017)
-                div.event-time 
-                  span oct 
-                  span 13
-    section.about-wrap
-      div.container 
-        div.title 
-          h1 About Focus
-          p A place for learning, discovery, innovation, expression and courage.
-      div.container
-        div.row.count-about 
-          div.col-md-4.count-item 
-            p unknow 
-            p teachers
-          div.col-md-4.count-item 
-            p unknow 
-            p papers
-          div.col-md-4.count-item 
-            p unknow 
-            p students
-      div.explore 
-        p Explore Focus
-        div.explore-nav
+      section.container-fluid.cover-scroll
+        div.big-title FOCUS LAB
+        a.cover-footer#btn-scroll(href="#member-wrap") Welcome to FOCUS LAB
+      section#member-wrap 
+        div.container
+          div.title 
+            h1 FOCUS MEMBERS
+            p We work together and attempt to change the world.
+        div.container
+          div.row.count-wrap
+            div.col-md-4.count-item 
+              p Professors
+              p 41
+            div.col-md-4.count-item 
+              p Master&Doctor 
+              p unknow
+            div.col-md-4.count-item 
+              p undergraduate 
+              p unkonw
           div.row
-            div.col-md-4.col-sm-4.explore-item
-              a(href="members") Members 
-            div.col-md-4.col-sm-4.explore-item
-              a(href="researchs") Research 
-            div.col-md-4.col-sm-4.explore-item
-              a#last-a(href="events") Events
-    section.footer 
-      div.row
-        a.footer-title.col-md-2(href="/") FOCUS LAB
-        div.col-md-10
-          p.footer-content
-            a(href="members") members 
-            a(href="researchs") research 
-            a(href="about") about 
-          p.footer-content @Nanjing University of Posts and Telecommunications. FOCUS 
-  script(type='text/javascript', src='javascripts/jquery.slim.min.js')
-  script(type='text/javascript', src='javascripts/popper.min.js')
-  script(type='text/javascript', src='javascripts/bootstrap.min.js')
+            div.col-md-3.col-sm-6.item-wrap
+              a(href="members_1").members-item
+                img(src="images/guiguan.jpg", alt="图片丢失了")
+                div.members-p-wrap
+                  p 桂冠 教授
+                  p 江苏特聘教授 1311鼎山学者 江苏省双创人才
+            div.col-md-3.col-sm-6.item-wrap
+              a(href="members_2").members-item
+                img(src="images/sari_hikmet.jpg", alt="图片丢失了")
+                div.members-p-wrap
+                  p Hikmet Sari 教授
+                  p 欧洲科学院院士
+                    |土耳其科学院院士
+                    |IEEE阿姆斯特朗奖获得者
+            div.col-md-3.col-sm-6.item-wrap
+              a(href="members_3").members-item
+                img(src="images/peter_grunberg.jpg", alt="图片丢失了")
+                div.members-p-wrap
+                  p Peter Grünberg 教授
+                  p 2007年诺贝尔物理学奖获得者 波鸿大学的荣誉博士头衔
+            div.col-md-3.col-sm-6.item-wrap
+              a(href="members_4").members-item
+                img(src="images/chenguoliang.png", alt="图片丢失了")
+                div.members-p-wrap
+                  p 陈国良 教授
+                  p 中国科学院院士高性能计算领域专家
+          div.row 
+            div.col-md-3.col-sm-6.item-wrap
+              a(href="members_5").members-item
+                img(src="images/yangzhen.png", alt="图片丢失了")
+                div.members-p-wrap
+                  p 杨震 教授
+                  p 南邮校长、信息与通信工程一级重点学科带头人
+            div.col-md-3.col-sm-6.item-wrap
+              a(href="members_6").members-item
+                img(src="images/neikato.png", alt="图片丢失了")
+                div.members-p-wrap
+                  p Nei Kato 教授
+                  p IEEE TVT主编、IEEE Network主编 日本东北大学教授
+            div.col-md-3.col-sm-6.item-wrap
+              a(href="members_7").members-item
+                img(src="images/Sherman.jpg", alt="图片丢失了")
+                div.members-p-wrap
+                  p Sherman Shen 教授
+                  p 加拿大两院院士，IEEE IoT主编 滑铁卢大学教授
+            div.col-md-3.col-sm-6.item-wrap
+              a(href="members_8").members-item
+                img(src="images/Fumiyuki.png", alt="图片丢失了")
+                div.members-p-wrap
+                  p Fumiyuki Adachi 教授
+                  p IEEE Fellow、 IEICE Fellow、日本东北大学教授
+          a.find-more(href="members") Find More
+      section.research-wrap 
+        div.container
+          div.title 
+            h1 Research 
+            p We hope our researchs could solve the problems around the world.
+            p We bring the convience to the world.
+        div.container
+          div.row.count-wrap
+            div.col-md-4.count-item 
+              p Directions
+              p 12
+            div.col-md-4.count-item 
+              p Cooperation 
+              p unknow
+            div.col-md-4.count-item 
+              p Future 
+              p unkonw
+          div.row 
+            div.col-md-3.col-sm-6.item-wrap 
+              a.researchs-item(href="researchs_1")
+                div.img-wrap
+                  img(src="images/research-1.jpg", alt="")
+                div.item-content
+                  p Deep Learning & Picture
+                  p Research on Image Semantic Segmentation Based on Depth Learning
+            div.col-md-3.col-sm-6.item-wrap 
+              a.researchs-item(href="researchs_2s")
+                div.img-wrap
+                  img(src="images/research-2.png", alt="")
+                div.item-content 
+                  p WiFi & Location
+                  p Research on WiFi Based Indoor Location System               
+            div.col-md-3.col-sm-6.item-wrap 
+              a.researchs-item(href="")
+                div.img-wrap
+                  img(src="images/research-3.jpg", alt="")
+                div.item-content
+                  p Big Data & Communication
+                  p Analysis of Mobile Communication KPI Based on Large Data
+            div.col-md-3.col-sm-6.item-wrap  
+              a.researchs-item(href="")
+                div.img-wrap
+                  img(src="images/research-4.jpg", alt="")
+                div.item-content 
+                  p AI & Bill
+                  p Research on Artificial Intelligence Bill Recognition System
+          a.find-more(href="researchs") Find More
+      section.events-wrap
+        div.container
+          div.title 
+            h1 Events 
+            p There are many interesting events.
+          div.row 
+            div.col-md-3.col-sm-6.event-wrap
+              a(href="events_1").events-item
+                div.img-wrap 
+                  img(src="images/events/events_1/1.jpg", alt="")
+                div.event-content
+                  p Hikmet Sari教授受邀在PIRMC2017做大会特邀报告
+                  p Hikmet Sari教授在第二十八届IEEE个人，室内和移动无线电通信国际研讨会（IEEE PIMRC 2017）作《MULTIPLE ACCESS FOR 5G – CHALLENGES AHEAD》主题报告。
+                  div.event-time 
+                    span oct 
+                    span 12
+            div.col-md-3.col-sm-6.event-wrap
+              a(href="events_2").events-item
+                div.img-wrap 
+                  img(src="images/events/events_2/1.jpg", alt="")
+                div.event-content
+                  p 2017开放计算和普适感知前沿国际论坛开幕
+                  p Conference Program International Symposium on Frontier of Open Computing and Ubiquitous Sensing(FOCUS 2017)
+                  div.event-time 
+                    span oct 
+                    span 11
+            div.col-md-3.col-sm-6.event-wrap
+              a(href="events_3").events-item
+                div.img-wrap 
+                  img(src="images/events/events_3/1.jpg", alt="")
+                div.event-content
+                  p 加拿大滑铁卢大学Sherman Shen教授、日本东北大学Nei Kato教授作主题报告
+                  p Conference Program International Symposium on Frontier of Open Computing and Ubiquitous Sensing(FOCUS 2017)
+                  div.event-time 
+                    span oct 
+                    span 11
+            div.col-md-3.col-sm-6.event-wrap
+              a(href="events_4").events-item
+                div.img-wrap 
+                  img(src="/images/events/events_4/11.jpg", alt="")
+                div.event-content
+                  p 日本东北大学Fumiyuki Adachi教授、清华大学高飞飞副教授、大连理工大学赵楠副教授作主题报告
+                  p Conference Program International Symposium on Frontier of Open Computing and Ubiquitous Sensing(FOCUS 2017)
+                  div.event-time 
+                    span oct 
+                    span 13
+      section.about-wrap
+        div.container 
+          div.title 
+            h1 About Focus
+            p A place for learning, discovery, innovation, expression and courage.
+        div.container
+          div.row.count-about 
+            div.col-md-4.count-item 
+              p unknow 
+              p teachers
+            div.col-md-4.count-item 
+              p unknow 
+              p papers
+            div.col-md-4.count-item 
+              p unknow 
+              p students
+        div.explore 
+          p Explore Focus
+          div.explore-nav
+            div.row
+              div.col-md-4.col-sm-4.explore-item
+                a(href="members") Members 
+              div.col-md-4.col-sm-4.explore-item
+                a(href="researchs") Research 
+              div.col-md-4.col-sm-4.explore-item
+                a#last-a(href="events") Events
+      section.footer 
+        div.row
+          a.footer-title.col-md-2(href="/") FOCUS LAB
+          div.col-md-10
+            p.footer-content
+              a(href="members") members 
+              a(href="researchs") research 
+              a(href="about") about 
+            p.footer-content @Nanjing University of Posts and Telecommunications. FOCUS 
+    script(type='text/javascript', src='javascripts/jquery.slim.min.js')
+    script(type='text/javascript', src='javascripts/popper.min.js')
+    script(type='text/javascript', src='javascripts/bootstrap.min.js')
+    script(type='text/javascript', src='javascripts/jquery.min.js')
+    script(type='text/javascript', src='javascripts/main.js')
 
     

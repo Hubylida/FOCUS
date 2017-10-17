@@ -49,6 +49,10 @@ a:hover {
   margin: 0 auto;
 }
 
+#nav-menu{
+  display: none;
+}
+
 #main-content{
   padding: 50px 0;
 }
@@ -138,4 +142,40 @@ a:hover {
 
 .footer-title:hover{
   color: #222;
+}
+
+@media screen and (max-width: 768px){
+  .head-name{
+   display: inline-block;
+   text-align: center; 
+   position: relative;
+  }
+  #nav-menu{
+    display: block;
+    width: 1.7em;
+    height: 1.5em;
+    padding: .3em 0;
+    border-top: .3em solid #444;
+    border-bottom: .3em solid #444;
+    background: #444;
+    background-clip: content-box;
+    position: absolute;
+    top: .7em;
+    right: 1.5em;
+  }
+  .nav-bar{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 -1em;
+    background: #fff;
+    display: none;
+  }
+  .nav-item{
+    width: 100%;
+    display: inine-block;
+    padding-left: 6em;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
 }
