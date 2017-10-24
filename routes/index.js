@@ -10,9 +10,9 @@ var event_str = fs.readFileSync('events.json', {
     encoding: 'UTF-8'
   }),
   event = JSON.parse(event_str);
-var research_str = fs.readFileSync('researchs.json',{
-  encoding:'UTF-8'
-}),
+var research_str = fs.readFileSync('researchs.json', {
+    encoding: 'UTF-8'
+  }),
   research = JSON.parse(research_str);
 
 /* GET home page. */
