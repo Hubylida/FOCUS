@@ -59,22 +59,35 @@ a:hover {
 }
 
 .research-wrap {
+  min-height: 71vh;
+  border-radius: 5px;
   padding-bottom: 2em;
   box-shadow: 0 0 10px rgba(0, 0, 0, .15), 0 3px 3px rgba(0, 0, 0, .15);
 }
 
-.research-wrap img{
+#head_img{
   width: 100%;
 }
 
 .research-wrap h1{
   padding: 0 2em;
   text-align: center;
+  font-size: 2.2em;
 }
 
 .research-wrap  p{
   padding: 0 2em;
   text-indent: 2em;
+  font-size: 1.5em;
+}
+
+.img-wrap{
+  text-align: center;
+}
+
+.img-wrap img{
+  width: 65%;
+  border-radius: 5px;
 }
 
 .footer {
@@ -82,7 +95,7 @@ a:hover {
   font-size: 1.5em;
   font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif!important;
   background: #fff;
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .15);
+  border-top: 1px solid #e5e5e5;
   letter-spacing: 1px;
 }
 
@@ -104,13 +117,16 @@ a:hover {
   color: #222;
 }
 
-@media screen and (max-width: 768px){
-  .head-name{
-   display: inline-block;
-   text-align: center; 
-   position: relative;
+@media screen and (max-width: 768px) {
+  .footer {
+    position: static;
   }
-  #nav-menu{
+  .head-name {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+  }
+  #nav-menu {
     display: block;
     width: 1.7em;
     height: 1.5em;
@@ -123,14 +139,14 @@ a:hover {
     top: .7em;
     right: 1.5em;
   }
-  .nav-bar{
+  .nav-bar {
     width: 100vw;
     height: 100vh;
     margin: 0 -1em;
     background: #fff;
     display: none;
   }
-  .nav-item{
+  .nav-item {
     width: 100%;
     display: inine-block;
     padding-left: 6em;

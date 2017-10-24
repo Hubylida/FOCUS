@@ -10,6 +10,10 @@ var event_str = fs.readFileSync('events.json', {
     encoding: 'UTF-8'
   }),
   event = JSON.parse(event_str);
+var research_str = fs.readFileSync('researchs.json',{
+  encoding:'UTF-8'
+}),
+  research = JSON.parse(research_str);
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -37,7 +41,7 @@ router.get('/about', function (req, res, next) {
 });
 
 
-for (let i = 0; i < 55; i++) {
+for (let i = 0; i < 60; i++) {
   router.get('/members_' + (i + 1), function (req, res, next) {
     res.render('member', {
       "name": member[i].name,
@@ -49,10 +53,6 @@ for (let i = 0; i < 55; i++) {
     });
   });
 }
-
-router.get('/researchs_1', function (req, res, next) {
-  res.render('research');
-})
 
 for (let j = 0; j < 10; j++) {
   router.get('/events_' + (j + 1), function (req, res, next) {
@@ -76,6 +76,28 @@ for (let j = 0; j < 10; j++) {
       "p_7": event[j].p_7,
       "p_8": event[j].p_8,
       "content_footer": event[j].content_footer
+    })
+  })
+}
+
+for (let k = 0; k < 10; k++) {
+  router.get('/researchs_' + (k + 1), function (req, res, next) {
+    res.render('research', {
+      "name": research[k].name,
+      "head_img": research[k].head_img,
+      "img_1": research[k].img_1,
+      "img_2": research[k].img_2,
+      "img_3": research[k].img_3,
+      "img_4": research[k].img_4,
+      "img_5": research[k].img_5,
+      "img_6": research[k].img_6,
+      "p_1": research[k].p_1,
+      "p_2": research[k].p_2,
+      "p_3": research[k].p_3,
+      "p_4": research[k].p_4,
+      "p_5": research[k].p_5,
+      "p_6": research[k].p_6,
+      "developer": research[k].developer
     })
   })
 }
