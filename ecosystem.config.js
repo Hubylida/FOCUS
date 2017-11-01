@@ -32,10 +32,10 @@ module.exports = {
   deploy : {
     production : {
       user : 'root',
-      host : '10.128.16.111',
+      host : '101.236.29.56',
       ref  : 'origin/master',
       repo : 'git@github.com:Hubylida/FOCUS.git',
-      path : 'root/www/FOCUS',
+      path : '/var/root/www/development/FOCUS',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     },
     dev : {
