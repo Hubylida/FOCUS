@@ -37,17 +37,6 @@ module.exports = {
       repo : 'git@github.com:Hubylida/FOCUS.git',
       path : '/var/www/FOCUS',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
-    },
-    dev : {
-      user : 'root',
-      host : '101.236.29.56',
-      ref  : 'origin/dev',
-      repo : 'git@github.com:Hubylida/FOCUS.git',
-      path : '/var/www/development',
-      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env dev',
-      env  : {
-        NODE_ENV: 'dev'
-      }
     }
   }
 };
