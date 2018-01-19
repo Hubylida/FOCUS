@@ -74,7 +74,7 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 7.5rem;
+  font-size: 6.5rem;
   font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif!important;
   color: #fff;
 }
@@ -458,7 +458,7 @@ a:hover {
     background-clip: content-box;
     position: absolute;
     top: .7em;
-    right: 3.5em;
+    right: 2em;
   }
   .nav-bar{
     width: 100vw;
