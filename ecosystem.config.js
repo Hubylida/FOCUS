@@ -7,9 +7,8 @@ module.exports = {
 
     // First application
     {
-      name      : 'FOCUS',
+      name      : 'API',
       script    : 'app.js',
-      watch     : true,
       env: {
         COMMON_VARIABLE: 'true'
       },
@@ -21,7 +20,7 @@ module.exports = {
     // Second application
     {
       name      : 'WEB',
-      script    : './bin/www'
+      script    : 'web.js'
     }
   ],
 
