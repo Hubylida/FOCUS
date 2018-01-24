@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet", href="stylesheets/bootstrap.min.css")
+    link(rel="stylesheet", href="stylesheets/normalize.css")
+    link(rel="stylesheet", href="stylesheets/login.css")
+    script(src="javascripts/jquery.min.js")
+    script(src="javascripts/sha1.js")
+    title FOCUS
+  body
+    div.container-fluid#contain
+      div#wrap 
+        form#form
+          div.form-group
+            label(for="email").control-label Email address 
+            input(type="eamil" placeholder="Email" name="email").form-control#email
+            span.help-block#email-error please input your Email again!
+          div.form-group 
+            label(for="password").control-label Password 
+            input(type="password" placeholder="Password" name="password").form-control#password
+            span.help-block#password-error please input your Password!
+          a(href="/admin/register" class="btn btn-default")#register-btn Register
+          a(href="/" class="btn btn-default")#login-btn Login
+    script(type="text/javascript").
+      var email = $('#email'),
+          password = $('#password');
+      var emailError = $('#email-error'),
+          passwordError = $('#password-error');
+      var submit = $('#login-btn');
+      var flag = true;
+      email.on('blur',function(){
+        var emailval = email.val();
+        var reg = /^([\w-_]+(?:\.[\w-_]+)*)@((?:[a-z0-9]+(?:-[a-zA-Z0-9]+)*)+\.[a-z]{2,6})$/i;
+        if(reg.exec(emailval) == null){
+          emailError.css('display','inline');
+          flag = false;
+        }else{
+          emailError.css('display','none');
+          flag = true;
+        }
+      })
+
+      password.on('blur',function(){
+        var passwordval = password.val();
+        if(passwordval == ''){
+          passwordError.css('display','inline');
+          flag = false;
+        }else{
+          passwordError.css('display','none');
+          flag = true;
+        }
+      })
+
+      submit.on('click',function(e){
+        e.preventDefault(); //不知道为什么加了这一行就好了，奇怪
+        var emailval = email.val(),
+            passwordval = password.val();
+        var newEmail = hex_sha1(emailval);
+            newPassword = hex_sha1(passwordval);
+        email.trigger('blur');
+        password.trigger('blur');
+        if(flag){
+            $.ajax({
+              url: '/admin/login',
+              type: 'post',
+              data: {
+                email: newEmail,
+                password: newPassword
+              },
+              success: function(d){
+                console.log(d);
+              }
+            })
+        }else{
+          console.log('wrong!');
+        }
+      })
+      
+      

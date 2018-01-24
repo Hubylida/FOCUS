@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet", href="../stylesheets/bootstrap.min.css")
+    link(rel="stylesheet", href="../stylesheets/normalize.css")
+    link(rel="stylesheet", href="../stylesheets/register.css")
+    script(src="../javascripts/jquery.min.js")
+    script(src="../javascripts/sha1.js")
+    title FOCUS
+  body
+    div.container-fluid#contain
+      div#wrap 
+        form#form
+          div.form-group
+            label(for="email").control-label Email address 
+            input(type="email" placeholder="Email" name="email").form-control#email
+            span.help-block#email-error please input your Email again!
+          div.form-group
+            label(for="name").control-label Name 
+            input(type="text" placeholder="Name" name="name").form-control#name
+            span.help-block#name-error please input your name again!
+          div.form-group 
+            label(for="password-1").control-label Password 
+            input(type="password" placeholder="Password" name="password-1").form-control#password-1
+            span.help-block#password-error-1 please input your Password!
+          div.form-group 
+            label(for="password-2").control-label Input Password again
+            input(type="password" placeholder="Password" name="password-2").form-control#password-2
+            span.help-block#password-error-2 please input your Password!
+          a(href="/" class="btn btn-default")#register-btn Register
+    script(type="text/javascript").
+      var email = $('#email'),
+          password_1 = $('#password-1'),
+          password_2 = $('#password-2');
+      var emailError = $('#email-error'),
+          nameError = $('#name-error'),
+          passwordError_1 = $('#password-error-1'),
+          passwordError_2 = $('#password-error-2');
+      var register = $('#register-btn');
+      var flag = true;
+      email.on('blur',function(){
+        var emailval = email.val();
+        var reg = /^([\w-_]+(?:\.[\w-_]+)*)@((?:[a-z0-9]+(?:-[a-zA-Z0-9]+)*)+\.[a-z]{2,6})$/i;
+        if(reg.exec(emailval) == null){
+          emailError.css('display','inline');
+          flag = false;
+        }else{
+          emailError.css('display','none');
+          flag = true;
+        }
+      })
+
+      $('#name').on('blur',function(){
+        var nameval = $('#name').val();
+        if(nameval == ''){
+          nameError.css('display','inline');
+          flag = false;
+        }else{
+          nameError.css('display','none');
+          flag = true;
+        }
+      })
+
+      password_1.on('blur',function(){
+        var passwordval = password_1.val();
+        if(passwordval == ''){
+          passwordError_1.css('display','inline');
+          flag = false;
+        }else{
+          passwordError_1.css('display','none');
+          flag = true;
+        }
+      })
+
+      password_2.on('blur',function(){
+        var passwordval_1 = password_1.val();
+        var passwordval_2 = password_2.val();
+        if((passwordval_1 != '')&&(passwordval_1 == passwordval_2)){
+          passwordError_2.css('display','none');
+          flag = true;
+        }else{
+          passwordError_2.css('display','inline');
+          flag = false;
+        }
+      })
+
+      register.on('click',function(e){
+        e.preventDefault(); //不知道为什么加了这一行就好了，奇怪
+        var emailval = email.val(),
+            passwordval = password_1.val(),
+            nameval = $('#name').val();
+        var newEmail = hex_sha1(emailval),
+            newPassword = hex_sha1(passwordval);
+        email.trigger('blur');
+        $('#name').trigger('blur');
+        password_1.trigger('blur');
+        password_2.trigger('blur');
+        if(flag){
+            $.ajax({
+              url: '/admin/register',
+              type: 'post',
+              data: {
+                email: newEmail,
+                name: nameval,
+                password: newPassword
+              },
+              success: function(d){
+                console.log(d);
+              }
+            })
+        }else{
+          console.log('wrong!');
+        }
+      })
+      
+      

@@ -460,20 +460,21 @@ a:hover {
     top: .7em;
     right: 2em;
   }
-  .nav-bar{
-    width: 100vw;
-    height: 100vh;
-    margin: 0 -1em;
+  .nav-bar-wrap{
     background: #fff;
+    padding: 0;
+  }
+  .nav-bar{
+    width: 100%;
+    /* margin: 0 -1em; */
     display: none;
   }
   .nav-item{
-    width: 100%;
-    display: inine-block;
-    padding-left: 6em;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    text-align: left;
+    width: 50%;
+    /* display: block; */
+    padding: 1em .5em;
+    border: 1px solid #ddd;
+    text-align: center;
   }
   
 }
