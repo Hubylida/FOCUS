@@ -75,6 +75,8 @@ for (let j = 0; j < 10; j++) {
       "p_6": event[j].p_6,
       "p_7": event[j].p_7,
       "p_8": event[j].p_8,
+      "link_1": event[j].link_1,
+      "link_1_name": event[j].link_1_name,
       "content_footer": event[j].content_footer
     })
   })
